@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090d25" />
+  <meta name="description" content="A little universe made of our memories, our late-night conversations, and all the things I still want to tell you." />
+  <title>Our Little Universe ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="aurora aurora-one" aria-hidden="true"></div>
+  <div class="aurora aurora-two" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="Our Little Universe home">
+      <span class="brand-star">✦</span><span>our little universe</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#story">our story</a>
+      <a href="#little-things">little things</a>
+      <button class="nav-letter" id="openLetterTop" type="button">a letter for you <span>↗</span></button>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A tiny place in the universe, just for you</p>
+        <h1>Somewhere in this world,<br><em>I'm missing you.</em></h1>
+        <p class="hero-text">So I made you a little universe. It holds the days that brought us here, the things I remember, and the words I wish I could tell you while sitting right next to you.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#story">Come a little closer <span>↓</span></a>
+          <button class="button button-quiet" id="openLetterHero" type="button"><span class="tiny-heart">♡</span> There's something for you</button>
+        </div>
+        <div class="hero-note"><span class="pulse-dot"></span> Made with love, and a ridiculous number of memories</div>
+      </div>
+      <div class="orbit-wrap reveal" aria-label="An animated constellation of two stars">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="planet planet-main"><span>✦</span></div>
+        <div class="planet planet-small"><span>♡</span></div>
+        <span class="orbit-label label-you">you</span>
+        <span class="orbit-label label-me">me</span>
+        <span class="floating-star star-a">✦</span><span class="floating-star star-b">✧</span><span class="floating-star star-c">·</span>
+        <div class="orbit-caption">two little stars<br><em>under the same sky</em></div>
+      </div>
+      <a class="scroll-hint" href="#our-dates"><span class="scroll-line"></span> scroll slowly</a>
+    </section>
+
+    <section class="date-strip" id="our-dates">
+      <div class="date-item"><span class="date-label">the day we met</span><strong>11 <small>JUL</small> 2025</strong><span class="date-sub">the beginning of us</span></div>
+      <div class="date-connector"><span>✦</span><i></i><span>✦</span></div>
+      <div class="date-item"><span class="date-label">the day we became us</span><strong>02 <small>MAY</small> 2026</strong><span class="date-sub">a new chapter, same favourite person</span></div>
+    </section>
+
+    <section class="section-pad intro-section" id="story">
+      <div class="section-heading reveal">
+        <p class="eyebrow">✧ OUR LITTLE TIMELINE ✧</p>
+        <h2>It started with a message.<br><em>Look where we are now.</em></h2>
+        <p class="section-intro">I remember so many little things. Here are some of the moments that still feel warm when I think about them.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span>01</span><i></i></div>
+          <div class="timeline-card">
+            <div class="timeline-meta"><span>11 JULY 2025</span><span class="meta-star">✦</span></div>
+            <h3>The start of a little something</h3>
+            <p>We met on a summer day, without knowing how much space we would eventually take up in each other's lives. At first, it was just a conversation. Then I started looking forward to the next one.</p>
+            <p>It's strange and lovely to think that something so important to me began so simply. If I could visit that day, I would tell that version of me to pay attention — she was meeting someone who would become one of her favourite people.</p>
+            <div class="quote-chip">“I had no idea this would become <em>our story.</em>”</div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span>02</span><i></i></div>
+          <div class="timeline-card">
+            <div class="timeline-meta"><span>10 OCTOBER 2025</span><span class="meta-star">☾</span></div>
+            <h3>The call I was so nervous about</h3>
+            <p>We decided to chat for three days before the call. I was so nervous. When October 10th finally came, I was at school and immediately asked to leave my classes just so I could talk to you.</p>
+            <p>You started so confidently, with so much energy. I was shy and had no idea how I was going to speak. Even when I didn't understand every sentence, even when I couldn't make my own, I was so happy to be on a call with you.</p>
+            <p>I even loved our silence. Sometimes I didn't know what you had said, and all I could do was go “bebehe” — ahahahaha. When you started repeating after me, I felt this little connection. I loved your voice so much. I didn't understand everything, but I loved listening to you talk.</p>
+            <p>We talked for so long. I will never forget the word “yacht” that I couldn't understand, or the loud, funny typing sound while I was using the translator. 😅 That day, I also got your WhatsApp number and learned your surname.</p>
+            <p>That was also the day my mother found out I was talking to you and told me not to fall in love with you. I remember thinking that it was probably already too late.</p>
+            <div class="memory-footer"><span class="memory-icon">♫</span><span>Your voice, my nervous “bebehe,” and a very loud translator.</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span>03</span><i></i></div>
+          <div class="timeline-card">
+            <div class="timeline-meta"><span>THE LITTLE THINGS ERA</span><span class="meta-star">✧</span></div>
+            <h3>We kept finding new things to share</h3>
+            <p>You suggested we try making the humidity-sensor project again. We made a Spotify Blend. You made a scrolling text with my name on the display, and I kept thinking about it because it made me so happy. Then you made a smiley face with “hi” on the display. Such a tiny thing, but I loved it.</p>
+            <p>We played chess, taught each other words in our languages, and told each other things we hadn't told everyone else — like how you left for another city without telling your parents, and how you took apart your mum's bicycle. We talked about <em>Suits</em> and tried to watch it together on Rave.</p>
+            <p>Then I finally saw what you looked like. I could only see part of your face in the profile picture, but I was genuinely shocked by how handsome you were. I kept looking at your photo; it filled me with this strange, lovely feeling of delight and affection.</p>
+            <p>I discovered your photography and admired your pictures so much. We talked about trains, and I loved your childhood drawings of them. I learned your real name and the first letter of your surname. I was surprised when you told me about your brothers and sisters. Everything seemed to happen for the first time.</p>
+            <p>I re-listened to your voice messages and re-read your texts over and over. I wanted to know everything: your MBTI, what you were learning, photographing, watching and listening to, what you were doing, and what you would do in a random situation. I still keep all those feelings in my heart.</p>
+            <div class="memory-footer"><span class="memory-icon">⌁</span><span>Little projects, new words, photos, questions — and so much curiosity about you.</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span>04</span><i></i></div>
+          <div class="timeline-card">
+            <div class="timeline-meta"><span>LATE SUMMER · AUTUMN · WINTER</span><span class="meta-star">☄</span></div>
+            <h3>My favourite part of the day was you</h3>
+            <p>We started talking a lot, almost every evening after school. Time with you went by so quickly. I got to know your character better and discovered how amazing and kind you are. You always had the best ideas, like making websites. You sent funny stickers, and I collected them all. You joked so much, and I adored your jokes.</p>
+            <p>We finally played Asphalt together, then talked late into the night. We played games until midnight, searching for something else to play. You found Stumble Guys, and there was always a new update to try. We shared stories, looked at things together, and laughed. My happiness knew no limits.</p>
+            <p>I looked at your class notes and photos of your exams. I saved everything connected to you. We stayed on calls until morning, scrolled through our feeds together, and sometimes you turned on screen sharing just so I could see your face. When I was in a bad mood, I looked at your bright childhood photo.</p>
+            <p>I loved your Halloween jokes, even the silly dirty ones. Do you remember that Peppa Pig photo of me? We started making memes of each other and counting who had more. I was so nervous to send you the elephant photo and the other memes, even though I wanted you to laugh. We played Truth or Dare late at night, shared childhood photos, and watched each other grow up through old pictures.</p>
+            <p>I remember how worried I was about your birthday gift and how much I wanted to know your address so I could send you something. I remember your sister asking if you would date me — I was so surprised that my mood shot up instantly. And when she wanted to give me her number so we could talk? I could hardly believe any of it was happening.</p>
+            <p>I was shocked when you guessed where I lived. I loved seeing the beauty of India through your eyes. Everything you created, every new thing you learned, made me incredibly happy. You became such a huge source of energy in my life. I felt happy because of your messages, your photos, your memories, your answers — simply because they were from you.</p>
+            <p>In the first days of the new year, we finally saw each other's faces properly. I loved that photo where your face was barely visible because of the streetlight. I loved the avatar you suggested I use. When I lost my phone, I was so scared I would lose your number, your photos, and our chat. I was ridiculously happy when you sent your new photos again, along with all the dog stickers and your masterpieces.</p>
+            <p>Do you remember when we talked about the criteria for our future husband or wife? 😉 There was always something new to discover. I saw so much more of the world through you than I had seen in my first thirteen years.</p>
+            <div class="quote-chip">“I wanted this happiness to never end.”</div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><span>05</span><i></i></div>
+          <div class="timeline-card">
+            <div class="timeline-meta"><span>THE WORDS THAT STAYED</span><span class="meta-star">♡</span></div>
+            <h3>“You have such beautiful eyes 💖”</h3>
+            <p>I still remember your first message: “I love you 😻 (in a friendly way).” Then you started giving me compliments. When you said, “You have such beautiful eyes 💖,” my happiness knew no limits. At first, I didn't believe it, but it felt so, so good.</p>
+            <p>After that, whenever I looked in the mirror at my own eyes, I remembered you and felt that same warmth. I was happy that I could compliment you too and tell you about my feelings. In this online little world, it felt like it was just us, together in our own space. I liked that so much.</p>
+            <p>And I still remember April 1st, when you wrote that you liked me. When I answered that I adored you, you decided not to tell me it had been a joke. Thank you for that. It feels like it happened almost yesterday, yet it's already a memory — one of the most pleasant memories I've ever had.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item timeline-item-final reveal">
+          <div class="timeline-marker"><span>06</span><i></i></div>
+          <div class="timeline-card proposal-card">
+            <div class="timeline-meta"><span>02 MAY 2026</span><span class="meta-star">♡</span></div>
+            <p class="chapter-label">CHAPTER 295 · THE DAY WE BECAME US</p>
+            <h3>“Would you like to be my girlfriend?”</h3>
+            <p>We were on a call at night, playing games, and then we finished. You were sharing your photos with me, as always. And then you wrote:</p>
+            <blockquote>“I've been clear in my head for a while. I like you, and I don't want to keep this undefined anymore. Would you like to be my girlfriend??”</blockquote>
+            <p>I froze. I thought maybe I was dreaming. I was in complete shock. I told you I was worried about what I would tell my parents, and you said, “Maybe this could be a secret between you and me.” I never thought you were thinking about me that way. I thought you saw me only as a friend.</p>
+            <p>I loved that you gave me time to think. It all felt unreal. Even after I agreed, I was still worried, so the next day I told you I wasn't worried anymore. And then I asked:</p>
+            <blockquote>“Am I your girlfriend now?”</blockquote>
+            <p>You answered with a better question — although, yes, we did have to fix that little typo:</p>
+            <blockquote>“Am I your boyfriend now?”</blockquote>
+            <p>And I answered, full of happiness:</p>
+            <div class="yes-answer">“yes you are 🥳” <span>✦</span></div>
+            <p class="ending-line">And just like that, a story that began on July 11, 2025 became <em>our relationship</em> on May 2, 2026.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad things-section" id="little-things">
+      <div class="section-heading reveal">
+        <p class="eyebrow">✧ LITTLE THINGS I KEEP ✧</p>
+        <h2>It's never just a message.<br><em>It's always you.</em></h2>
+        <p class="section-intro">Tap a little star. Each one holds a thing I miss, love, or remember.</p>
+      </div>
+      <div class="memory-grid">
+        <button class="memory-tile reveal" type="button" data-memory="voice">
+          <span class="tile-icon icon-wave">♫</span><span class="tile-kicker">01 / YOUR VOICE</span><strong>The calls that felt like home</strong><span class="tile-hint">open memory ↗</span>
+        </button>
+        <button class="memory-tile reveal" type="button" data-memory="projects">
+          <span class="tile-icon icon-spark">⌁</span><span class="tile-kicker">02 / YOUR IDEAS</span><strong>All the things you made</strong><span class="tile-hint">open memory ↗</span>
+        </button>
+        <button class="memory-tile reveal" type="button" data-memory="games">
+          <span class="tile-icon icon-moon">☾</span><span class="tile-kicker">03 / OUR NIGHTS</span><strong>One more game, one more minute</strong><span class="tile-hint">open memory ↗</span>
+        </button>
+        <button class="memory-tile reveal" type="button" data-memory="photos">
+          <span class="tile-icon icon-heart">♡</span><span class="tile-kicker">04 / YOUR PHOTOS</span><strong>The little pieces of your world</strong><span class="tile-hint">open memory ↗</span>
+        </button>
+      </div>
+      <div class="memory-detail" id="memoryDetail" aria-live="polite" hidden>
+        <button class="detail-close" id="closeMemory" type="button" aria-label="Close memory">×</button>
+        <p class="eyebrow" id="detailKicker">A LITTLE MEMORY</p>
+        <h3 id="detailTitle">The things I miss</h3>
+        <p id="detailText"></p>
+      </div>
+    </section>
+
+    <section class="photo-section section-pad">
+      <div class="photo-intro reveal">
+        <p class="eyebrow">✧ A FEW LITTLE FRAGMENTS ✧</p>
+        <h2>Moments I wish<br><em>I could keep in a jar.</em></h2>
+        <p>Swap these dreamy placeholders for the photos you want him to see. The memories are already here; the pictures can make them even more yours.</p>
+      </div>
+      <div class="photo-gallery">
+        <figure class="photo-frame photo-large reveal">
+          <div class="photo-art art-moon"><span class="art-moon-shape"></span><span class="art-caption">under the same sky</span></div>
+          <figcaption><span>01</span> the distance never erased the closeness</figcaption>
+        </figure>
+        <figure class="photo-frame photo-offset reveal">
+          <div class="photo-art art-window"><span class="window-moon"></span><span class="window-star">✦</span><span class="art-caption">one more night</span></div>
+          <figcaption><span>02</span> our late-night little world</figcaption>
+        </figure>
+        <figure class="photo-frame photo-wide reveal">
+          <div class="photo-art art-orbit"><span class="art-orbit-heart">♡</span><span class="art-caption">my favourite notification</span></div>
+          <figcaption><span>03</span> every time your name appeared</figcaption>
+        </figure>
+      </div>
+      <p class="photo-tip">To use real photos, see the <code>README.txt</code> included with the site.</p>
+    </section>
+
+    <section class="letter-teaser section-pad reveal" id="letter">
+      <div class="letter-stars" aria-hidden="true"><span>✦</span><span>·</span><span>✧</span><span>·</span><span>✦</span></div>
+      <div class="letter-envelope"><div class="envelope-flap"></div><span>♡</span></div>
+      <p class="eyebrow">A NOTE FROM ME TO YOU</p>
+      <h2>There are still things<br><em>I want you to know.</em></h2>
+      <p class="letter-sub">Not a grand speech. Just a little piece of my heart, saved here for you.</p>
+      <button class="button button-primary" id="openLetterBottom" type="button">Open your letter <span>↗</span></button>
+    </section>
+
+    <section class="final-section section-pad reveal">
+      <div class="final-star">✦</div>
+      <p class="eyebrow">BEFORE YOU GO</p>
+      <h2>Different places.<br><em>Same little universe.</em></h2>
+      <p class="final-copy">I can't reach through the screen and steal one of your hoodies or sit beside you while you talk about your day. But I can leave this here, so whenever you miss me, there's a tiny place you can visit.</p>
+      <p class="final-signoff">I'm so glad it was you. <span>♡</span></p>
+      <button class="secret-button" id="secretButton" type="button">psst... water plant? <span>✧</span></button>
+      <p class="secret-reply" id="secretReply" hidden>WATER PLANT?? 😭 I still don't know what this means, but it is officially part of our lore now. Never change, you adorable human. ♡</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>made for you, from wherever I am ♡</span>
+    <a href="#home">back to our sky ↑</a>
+    <span class="footer-date">11.07.25 — ∞ — 02.05.26</span>
+  </footer>
+
+  <div class="letter-modal" id="letterModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-backdrop" id="closeLetterBackdrop" type="button" aria-label="Close letter"></button>
+    <div class="letter-paper">
+      <button class="modal-close" id="closeLetter" type="button" aria-label="Close letter">×</button>
+      <span class="paper-star">✧</span>
+      <p class="eyebrow">FOR YOU, ALWAYS</p>
+      <h2 id="modalTitle">If I could be there right now…</h2>
+      <div class="letter-body">
+        <p>I'd probably sit next to you and listen to you talk about your day. I'd ask you a hundred questions, even the random ones, and then somehow we'd end up laughing about something completely different.</p>
+        <p>I miss the calls, the games, your photos, your voice, your jokes, and all the tiny things that might not seem important to anyone else. I miss learning new things about you. I miss how one ordinary message from you could make an ordinary day feel special.</p>
+        <p>Sometimes I wish the distance were just a little smaller. But even with all these kilometres between us, you've become such a real and important part of my life. I carry our memories with me — the nervous first call, the late nights, the silly memes, the “I love you (in a friendly way),” April 1st, and the day we finally became us.</p>
+        <p>Thank you for being someone I can laugh with, learn from, tell things to, and miss this much. I don't know how to fit all of it into one letter. I only know that when I think about the memories I treasure most, you're in so many of them.</p>
+        <p class="letter-last">Until I can be next to you, here's a little reminder:<br><em>somewhere in this world, I'm thinking of you. ♡</em></p>
+      </div>
+      <div class="letter-sign">yours, <span>the girl who still remembers everything</span> ♡</div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
